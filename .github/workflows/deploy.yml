@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - dev
-      - test
-      - main
+       - main
 
 jobs:
   deploy-dev:
@@ -29,7 +28,7 @@ jobs:
             git clone https://github.com/vardhanreddy2003/poc18.git
             cd poc18
             git checkout dev
-
+             #dev1
             # Pull latest changes from dev branch
             git pull origin dev
 
